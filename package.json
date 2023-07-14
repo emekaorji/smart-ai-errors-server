@@ -1,0 +1,31 @@
+{
+  "name": "smart-ai-errors-server",
+  "version": "1.0.0",
+  "description": "The Server-side of Smart AI Errors",
+  "main": "index.js",
+  "dependencies": {
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emekaorji/smart-ai-errors-server.git"
+  },
+  "keywords": [
+    "ai",
+    "error-handler",
+    "chat-gpt",
+    "gpt-3",
+    "human-readable",
+    "errors"
+  ],
+  "author": "Emeka Orji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emekaorji/smart-ai-errors-server/issues"
+  },
+  "homepage": "https://github.com/emekaorji/smart-ai-errors-server#readme"
+}
