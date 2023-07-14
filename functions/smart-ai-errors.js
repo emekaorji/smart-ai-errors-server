@@ -1,6 +1,12 @@
 const { OpenAIApi, Configuration } = require('openai');
 
 exports.handler = async function (event) {
+	if (!event.body) {
+        return {
+            statusCode: 400,
+            body: JSON.stringify({ message: 'There is no event body.' }),
+        };
+    }
 	const body = JSON.parse(event.body);
 
 	const configuration = new Configuration({
